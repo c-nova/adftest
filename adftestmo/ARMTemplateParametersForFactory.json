@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adftestmo"
+		},
+		"databricksusw2_accessToken": {
+			"value": ""
+		},
+		"destblobmo_connectionString": {
+			"value": ""
+		},
+		"sourceblobmo_connectionString": {
+			"value": ""
+		},
+		"DestinationFilesBlobStore1_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"DestinationFilesBlobStore1_properties_typeProperties_folderPath": {
+			"value": "sinkdata/staged_sink"
+		},
+		"SourceAvailabilityBlobStore1_properties_typeProperties_fileName": {
+			"value": "_success"
+		},
+		"SourceAvailabilityBlobStore1_properties_typeProperties_folderPath": {
+			"value": "data/source"
+		},
+		"SourceFilesBlobStore1_properties_typeProperties_fileName": {
+			"value": "Product.csv"
+		},
+		"SourceFilesBlobStore1_properties_typeProperties_folderPath": {
+			"value": "data/source"
+		}
+	}
+}
